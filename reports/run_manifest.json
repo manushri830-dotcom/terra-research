@@ -1,0 +1,25 @@
+{
+  "terra_version": "0.1.0",
+  "run_utc": "2026-10-24T15:03:58+00:00",
+  "input_file": "fire_archive_J1V-C2_810603.csv",
+  "input_sha256": "b4c1c0f9978a2321f35dd3489886a1234af1d79ec6740da6fd78550804076560",
+  "params": {
+    "grid_deg": 0.01,
+    "min_active_days": 10,
+    "exclude_low_confidence": false,
+    "connectivity": 8
+  },
+  "counts": {
+    "rows_clean": 260303,
+    "occupied_cells": 143912,
+    "persistent_cells": 716,
+    "clusters": 314
+  },
+  "versions": {
+    "python": "3.14.5",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

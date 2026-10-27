@@ -1,0 +1,40 @@
+{
+  "rows_in": 260303,
+  "removed": {
+    "non_numeric_lat_lon_frp": 0,
+    "coordinates_out_of_range": 0,
+    "negative_frp": 0,
+    "unparseable_acq_date": 0,
+    "invalid_acq_time": 0,
+    "invalid_confidence": 0,
+    "invalid_daynight": 0,
+    "invalid_type": 0,
+    "exact_duplicates": 0
+  },
+  "rows_out": 260303,
+  "frp_zero_rows_kept": 17,
+  "date_min": "2026-01-01",
+  "date_max": "2026-03-31",
+  "n_distinct_dates": 90,
+  "bbox": {
+    "lat_min": 8.11316,
+    "lat_max": 34.49565,
+    "lon_min": 68.54087,
+    "lon_max": 97.10703
+  },
+  "type_counts": {
+    "0": 225983,
+    "2": 33865,
+    "3": 455
+  },
+  "confidence_counts": {
+    "n": 208738,
+    "l": 45760,
+    "h": 5805
+  },
+  "daynight_counts": {
+    "D": 183390,
+    "N": 76913
+  },
+  "legacy_script_reproduction_cells_ge_min_days": 716
+}

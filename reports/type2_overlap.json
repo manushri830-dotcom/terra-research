@@ -1,0 +1,48 @@
+{
+  "min_active_days": 10,
+  "limitations": [
+    "FIRMS type 2 is a product flag for 'other static land source', not confirmed industrial heat.",
+    "The flag is produced by the FIRMS algorithm and is not independent of persistence, so overlap may be partly circular.",
+    "Persistent cells necessarily have many detections, which gives them more chances to carry a type-2 flag; the exposure-matched comparison reduces but does not remove this.",
+    "Results describe one 90-day winter-season window (Jan-Mar 2026) and one satellite (NOAA-20).",
+    "No external ground truth (e.g. a verified facility inventory) is used."
+  ],
+  "persistent_vs_all_other_cells": {
+    "group_a_with_type2": 581,
+    "group_a_without_type2": 135,
+    "group_b_with_type2": 339,
+    "group_b_without_type2": 142857,
+    "share_a_with_type2": 0.8114525139664804,
+    "share_b_with_type2": 0.002367384563814632,
+    "fisher_odds_ratio": 1813.611209439528,
+    "fisher_p_value": 0.0
+  },
+  "persistent_vs_exposure_matched_cells": {
+    "group_a_with_type2": 581,
+    "group_a_without_type2": 135,
+    "group_b_with_type2": 21,
+    "group_b_without_type2": 81,
+    "share_a_with_type2": 0.8114525139664804,
+    "share_b_with_type2": 0.20588235294117646,
+    "fisher_odds_ratio": 16.6,
+    "fisher_p_value": 1.207344111765416e-33,
+    "n_matched_non_persistent_cells": 102
+  },
+  "detection_level": {
+    "type2_share_in_persistent_cells": 0.8218864699079893,
+    "type2_share_in_other_cells": 0.005314590182518989,
+    "type2_detections_total": 33865,
+    "type2_detections_in_persistent_cells": 32693
+  },
+  "type2_cell_coverage": {
+    "cells_with_type2": 920,
+    "of_which_persistent": 581,
+    "share_persistent": 0.6315217391304347
+  },
+  "cluster_level": {
+    "n_clusters": 314,
+    "no_type2_detections": 73,
+    "some_type2_detections": 19,
+    "majority_type2_detections": 222
+  }
+}

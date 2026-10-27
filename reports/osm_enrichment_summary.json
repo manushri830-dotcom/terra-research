@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-10-25T15:04:23+00:00",
+  "terra_version": "0.1.0",
+  "query_version": "1",
+  "params": {
+    "radius_m": 1000,
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "min_interval_s": 10.0,
+    "max_attempts": 3,
+    "max_requests": 400,
+    "limit": null
+  },
+  "n_clusters": 314,
+  "status_counts": {
+    "ok_features": 314
+  },
+  "last_run": {
+    "to_query": 8,
+    "already_done_skipped": 306,
+    "failed_skipped": 0,
+    "processed": 8,
+    "succeeded": 8,
+    "failed": 0,
+    "aborted": null,
+    "http_requests_made": 10,
+    "cache_hits": 0
+  },
+  "limitations": [
+    "OSM tags are descriptive context only; no tag confirms the source of a thermal anomaly.",
+    "'ok_no_features' means the query succeeded with no matching elements, not that nothing exists; OSM completeness varies and is often lower in rural India.",
+    "'failed' clusters have unknown context and must not be treated as 'no features'.",
+    "OSM was queried at run time, not during the Jan-Mar 2026 detection window.",
+    "The search is centred on the cluster centroid with a fixed radius; multi-cell clusters can extend beyond it."
+  ]
+}
